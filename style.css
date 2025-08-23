@@ -56,3 +56,23 @@ hr {
 .padrao > p {
     color: #333;
 }
+
+#MPB h3{
+    text-decoration: underline;
+    color: #FF6666;
+}
+
+.MPB p {
+    color: blue;
+}
+
+.MBP2 :first-child {
+    color: #333;
+}
+nav{
+    background-color: #333;
+}
+
+.GCC { 
+    text-align: center;
+ }

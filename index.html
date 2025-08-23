@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Guia completo de CSS</h1>
+        <h1 id="GCC">Guia completo de CSS</h1>
         <nav>
             <a href="#Cascata">Regra da Cascata</a>
             <a href="#Especificidade">Especificidade</a>
@@ -119,10 +119,48 @@
         <hr>
         <section id="MPB">
             <h2>Margin, Padding e Border</h2>
-            <div>
-
+            <div >
+                <p>
+                    <strong>Margin</strong> → Espaço externo (fora da borda).
+                </p>
+                <p>
+                    <strong>Padding</strong> → Espaço interno (entre o conteúdo e a borda).
+                </p>
+                <p>
+                    <strong>Border</strong> → Linha que envolve o elemento.
+                </p>
+                <div class="MPB">
+                <h3>Shorthand:</h3>
+                <h4>1 valor → aplica em todos os lados.</h4>
+                <p>Ex.: margin: 10px;</p>
+                <h4>2 valores → 1º = cima/baixo, 2º = esquerda/direita.</h4>
+                <p>Ex.: padding: 10px 20px;</p>
+                <h4>3 valores → 1º = cima, 2º = lados, 3º = baixo.</h4>
+                <p>Ex.: margin: 10px 20px 30px;</p>
+                <h4>4 valores → cima, direita, baixo, esquerda (sentido horário).</h4>
+                <p>Ex.: border-width: 10px 5px 15px 0;</p>
+                </div>
+                <div class="MBP2">
+                    <h3>Sufixos:</h3>
+                    <ul>
+                        <li>
+                            -top, -bottom, -left, -right → controlam lados específicos.
+                        </li>
+                        <li>
+                        -inline → controla margens/paddings horizontais.
+                        </li>
+                        <li>
+                            -block → controla margens/paddings verticais.
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
+           
+        <div class="GCC">
+            <a href="#GCC">Clique aqui para voltar ao inicio.</a>
+        </div>
+
     </main>
 </body>
 </html>
