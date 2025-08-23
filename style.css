@@ -1,11 +1,11 @@
 *{
     background-color: #FFFFFF;
+    scroll-behavior: smooth;
 }
 
 h1{
     color: blue;
 }
-
 h1{
     color: white;
     background-color: #333;
