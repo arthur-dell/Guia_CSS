@@ -13,6 +13,8 @@
             <a href="#Cascata">Regra da Cascata</a>
             <a href="#Especificidade">Especificidade</a>
             <a href="#Combinação">Combinação de Seletores</a>
+            <a href="#pseudo-classes">Pseudo-classes</a>
+            <a href="#inline-block">Display Inline x Block</a>
         </nav>
     </header>
 
@@ -38,7 +40,7 @@
         <hr>
         <section id="Especificidade">
                 <h2>Especificidade</h2>
-                <div>
+                <div class="Especificidade">
                     <p><em>Tag</em> (ex.: p {}) → peso baixo</p>
                     <p><em>Classe/pseudo-classes</em> (ex.: .box {}, :hover) → peso médio</p>
                     <p><em>ID</em> (ex.: #menu {}) → peso alto</p>
@@ -49,6 +51,54 @@
         <hr>
         <section id="Combinação">
             <h2>Combinação de Seletores</h2>
+            <div>
+                <p>Espaço (.primeiro h1) → Seleciona todo h1 dentro de .primeiro (descendentes em qualquer nível).</p>
+                <p>Filho direto (.primeira > h1) → Seleciona apenas h1 que são filhos diretos de .primeira.</p>
+                <p>Irmão adjacente (.primeira h1 + h1) → Seleciona o h1 que vem logo após outro h1 dentro de .primeira.</p>
+            </div>
+        </section>
+        <hr>
+        <section id="pseudo-classes">
+            <h2>Pseudo-classes</h2>
+            <div class="pseudo">
+                <ul>
+                    <li>
+                        :first-child → Seleciona o primeiro filho de um elemento.
+                    </li>
+                    <li>
+                        :last-child → Seleciona o último filho.
+                    </li>
+                    <li>
+                        :nth-child(n) → Seleciona o filho na posição n (ex.: nth-child(2) = segundo filho).
+                    </li>
+                    <li>:nth-of-type(n) → Igual ao anterior, mas conta apenas filhos do mesmo tipo de tag.</li>
+                </ul>
+            </div>
+        </section>
+        <section id="inline-block">
+            <h2>Display Inline x Block</h2>
+            <div class="Block">
+                <h3>Block:</h3>
+                <ul>
+                    <li>
+                        Ocupa toda a largura disponível.
+                    </li>
+                    <li>
+                        Quebra linha automaticamente.
+                    </li>
+                    <li>
+                        Permite aplicar width, height, margin, padding em todas as direções.
+                    </li>
+                    <h4>Ex.: div, p, h1.</h4>
+                </ul>
+            </div>
+
+            <div class="Inline">
+                <h3>Inline:</h3>
+                <ul>
+                    
+                </ul>
+            </div>
         </section>
     </main>
 </body>
